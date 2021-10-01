@@ -16,7 +16,7 @@ mkcd() {
 }
 ```
 
-The annotated aliases and functions will be extracted
+The annotated aliases and functions will be extracted into a file specifically for 'root' and 'user'
 
 ```sh
 # shellcheck shell=bash
@@ -34,8 +34,6 @@ mkcd() {
 
 This is useful if you want to have a subset of your shell configuration available for remote servers or for usage as superuser (but do not want to copy and paste configuration files everywhere)
 
-
-
 ## Installation
 
 Use [Basalt](https://github.com/hyperupcall/basalt), a Bash package manager, to install this project globally
@@ -49,6 +47,8 @@ Additionally, a version of Perl is required
 ## Usage
 
 I do _not_ recommend using this utility right now. Everything is hardcoded for personal use (this was extracted from my dotfiles repository)
+
+TODO: Cleanup everything
 
 ```sh
 dotshellgen
