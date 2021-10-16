@@ -9,7 +9,7 @@ error() {
 	exit 1
 }
 
-dotshellextract.main() {
+main.dotshellextract() {
 	# TODO: move these to basalt.toml
 	shopt -s extglob nullglob globstar
 
