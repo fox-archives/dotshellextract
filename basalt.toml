@@ -1,7 +1,7 @@
 [package]
 name = 'dotshellextract'
 slug = 'dotshellextract'
-version = ''
+version = '0.1.0'
 authors = ['Edwin Kofler <edwin@kofler.dev>']
 description = 'Extract your dotfiles for reusability'
 
